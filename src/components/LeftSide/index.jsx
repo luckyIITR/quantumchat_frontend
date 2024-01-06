@@ -1,11 +1,13 @@
 import React from 'react'
-import Head from './Head'
-import Search from './Search'
+import Userprofile from './Userprofile'
+import Menu from './Menu'
+
 
 function LeftSide() {
   return (
     <div class="hidden xl:block sm:flex-2 w-64 bg-gray-200">
-      Leftside
+      <Userprofile/>
+      <Menu/>
     </div>
   )
 }
