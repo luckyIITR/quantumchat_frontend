@@ -1,18 +1,18 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from './components/Login';
 import Register from './components/Register';
+import Quantumchat from './components/Quantumchat';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <dev >
       <BrowserRouter>
         <Routes>
-          <Route path='/chatapp/login' element={<Login/>}/>
-          <Route path='/chatapp/register' element={<Register/>}/>
+          <Route path='/quantumchat/login' element={<Login/>}/>
+          <Route path='/quantumchat/register' element={<Register/>}/>
+          <Route path='/quantumchat' element={<Quantumchat/>}/>
         </Routes>
       </BrowserRouter>
     </dev>
