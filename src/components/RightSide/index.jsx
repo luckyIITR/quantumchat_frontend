@@ -1,13 +1,20 @@
-import React from 'react'
+import React,  { useState } from 'react'
 import Topbar from './Topbar'
 import Chatarea from './Chatarea'
 import Sidebar from './Sidebar'
+import Friendinfo from './Friendinfo'
 
 
 function RightSide() {
+  const [isFriendinfo, setFriendinfo] = useState(false);
+
+  const togglePanel = () => {
+    setFriendinfo(!isFriendinfo);
+  };
+
   return (
     <div class="flex-1 w-full h-full">
-      <div class="main-body mr-10 h-full flex flex-col">
+      <div class="main-body  h-full flex flex-col">
         {/* <Topbar /> */}
         {/* bottom */}
         <div class="main flex-1 flex flex-col">
@@ -16,7 +23,8 @@ function RightSide() {
           </div> */}
           <div class="flex-1 flex h-full">
             <Sidebar />
-            <Chatarea />
+            <Chatarea togglePanel = {togglePanel}/> 
+            <Friendinfo isFriendinfo={isFriendinfo}/>
           </div>
         </div>
       </div>
