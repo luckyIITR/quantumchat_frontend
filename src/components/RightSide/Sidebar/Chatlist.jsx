@@ -8,7 +8,8 @@ function Chatlist() {
         name: "Lucky Kushwaha",
         last_msg: "Yeah, Sure!",
         unseen_msg_cnt: "4",
-        last_msg_date: "06/01/2024"
+        last_msg_date: "06/01/2024",
+        isopened: true
     }
 
     let sample_data_2 = {
@@ -17,7 +18,8 @@ function Chatlist() {
         name: "Aman Gupta",
         last_msg: "Great!",
         unseen_msg_cnt: "12",
-        last_msg_date: "06/01/2024"
+        last_msg_date: "06/01/2024",
+        isopened: false
     }
     return (
         
