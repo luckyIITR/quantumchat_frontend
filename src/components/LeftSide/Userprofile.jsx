@@ -3,7 +3,7 @@ import profilephoto from "../../assets/profile.png"
 function Userprofile() {
     return (
         <div class="user-profile text-center">
-            <div class="w-12 h-12 rounded-full overflow-hidden m-auto mt-16 border-2 border-white bg-white shadow-lg">
+            <div class="w-10 h-10 rounded-full overflow-hidden m-auto mt-16 border-2 border-blue-700 bg-white shadow-lg">
                 <img src={profilephoto} alt="user" class="block object-cover w-full h-full" />
             </div>
             <div class="text-gray-800 mt-8">

@@ -6,9 +6,9 @@ import Sidebar from './Sidebar'
 
 function RightSide() {
   return (
-    <div class="flex-1 bg-gray-100 w-full h-full">
-      <div class="main-body container m-auto w-11/12 h-full flex flex-col">
-        <Topbar />
+    <div class="flex-1 w-full h-full">
+      <div class="main-body mr-10 h-full flex flex-col">
+        {/* <Topbar /> */}
         {/* bottom */}
         <div class="main flex-1 flex flex-col">
           {/* <div class="hidden lg:block heading flex-2">
