@@ -1,13 +1,14 @@
 import React from 'react'
 import Searchbar from './Searchbar'
 import Chatlist from './Chatlist'
+import logo from "../../../assets/logo.png"
 
 function Sidebar() {
   return (
     <div class="sidebar hidden lg:flex w-3/12 flex-2 flex-col mr-6 border-r-2 border-gray-800">
       <div class="header p-4 flex flex-row justify-between items-center flex-none">
         <div class="w-16 h-16 relative flex flex-shrink-0" style={{"filter": "invert(100%)"}}>
-          <img class="rounded-full w-full h-full object-cover" alt="ravisankarchinnam" src="https://avatars3.githubusercontent.com/u/22351907?s=60"/>
+          <img class="rounded-full w-full h-full object-cover" alt="ravisankarchinnam" src={logo}/>
         </div>
         <p class="text-md font-bold hidden md:block group-hover:block">QuantumChat</p>
         <a href="#" class="block rounded-full hover:bg-gray-700 bg-gray-800 w-10 h-10 p-2 hidden md:block group-hover:block">
