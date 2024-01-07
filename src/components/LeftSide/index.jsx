@@ -5,7 +5,7 @@ import Menu from './Menu'
 
 function LeftSide() {
   return (
-    <div class="hidden xl:block sm:flex-2 w-20 bg-gray-200">
+    <div class="hidden xl:block sm:flex-2 w-20">
       <Userprofile/>
       <Menu/>
     </div>

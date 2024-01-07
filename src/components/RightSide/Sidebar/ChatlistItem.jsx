@@ -12,7 +12,7 @@ function ChatlistItem(props) {
         bg_color_class = "bg-green-400";
 
     return (
-        <div class={`entry cursor-pointer transform hover:scale-105 duration-300 transition-transform bg-white mb-4 rounded p-4 flex shadow-md ${isopened_classes}`}>
+        <div class={`entry cursor-pointer transform hover:scale-105 duration-100 transition-transform bg-white mb-4 rounded p-4 flex shadow-md ${isopened_classes}`}>
             <div class="flex-2">
                 <div class="w-12 h-12 relative">
                     <img class="w-12 h-12 rounded-full mx-auto" src={profile_photo} alt="chat-user" />

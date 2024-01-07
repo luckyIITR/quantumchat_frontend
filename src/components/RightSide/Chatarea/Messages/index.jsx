@@ -31,7 +31,7 @@ function Messages() {
         isonline: true,
     }
     return (
-        <div class="messages flex-1 overflow-auto max-h-[65vh]" ref={messagesContainerRef}>
+        <div class="messages flex-1 overflow-auto max-h-[70vh]" ref={messagesContainerRef}>
             <Message data={sample_data_1} />
             <Message data={sample_data_2} />
             <Message data={sample_data_3} />

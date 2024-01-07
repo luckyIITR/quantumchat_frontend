@@ -11,9 +11,9 @@ function RightSide() {
         <Topbar />
         {/* bottom */}
         <div class="main flex-1 flex flex-col">
-          <div class="hidden lg:block heading flex-2">
+          {/* <div class="hidden lg:block heading flex-2">
             <h1 class="text-3xl text-gray-700 mb-4">Chat</h1>
-          </div>
+          </div> */}
           <div class="flex-1 flex h-full">
             <Sidebar />
             <Chatarea />

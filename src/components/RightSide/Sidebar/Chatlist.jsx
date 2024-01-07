@@ -23,7 +23,7 @@ function Chatlist() {
     }
     return (
         
-        <div class="flex-1 max-h-[70vh] overflow-auto px-2">
+        <div class="flex-1 max-h-[80vh] overflow-auto px-2">
             <ChatlistItem data = {sample_data_1}/>
             <ChatlistItem data = {sample_data_2}/>
             <ChatlistItem data = {sample_data_2}/>
