@@ -44,7 +44,7 @@ function Chatlist() {
             <ChatlistItem data = {sample_data_3}/>
             <ChatlistItem data = {sample_data_3}/>
         </div>
-    )
+    )       
 }
 
 export default Chatlist
