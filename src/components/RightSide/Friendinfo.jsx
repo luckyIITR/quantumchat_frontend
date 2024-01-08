@@ -15,7 +15,7 @@ function Friendinfo({ isFriendinfo }) {
                 <div class="text-center text-gray-400 text-xs font-semibold">
                     <p>Web Developer</p>
                 </div>
-                <table class="text-xs my-3">
+                <table class="text-xs my-3 mx-auto">
                     <tbody>
                         <tr>
                             <td class="px-2 py-2 text-gray-500 font-semibold">Phone</td>
